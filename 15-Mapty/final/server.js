@@ -1,3 +1,5 @@
+"use strict";
+
 import http from "http";
 import { readFile, writeFile } from "fs/promises";
 import { join, extname } from "path";
